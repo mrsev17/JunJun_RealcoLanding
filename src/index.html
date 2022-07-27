@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Realco</title>
+
     <link rel="stylesheet" href="../dist/output.css">
 
 </head>
@@ -11,7 +12,7 @@
 
     <header class="header bg-[#939878]">
 
-        <div class="container mx-auto px-3.5 relative">
+        <div class="container mx-auto px-3.5 relative w-screen max-w-none">
             <h2 class="text-sm text-white py-2 text-center">Get your dream house in a week</h2>
             <figure class="absolute top-0 right-0">
                 <svg class="mt-2.5 sm: mr-5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,7 +69,7 @@
 
                 </div>
 
-                <div class="header__control-panel flex items-center gap-8">
+                <div class="header__control-panel flex items-center gap-8 md:gap-4">
 
                     <div class="header__cart btn">
                         <a class="flex items-center gap-2" href="#"><span><img src="img/header_icon_bracket.svg" alt="Bracket"></span>Cart</a>
@@ -85,6 +86,59 @@
         </div>
 
     </header>
+
+    <main>
+        <section class="banner bg-[#F5F5F2]">
+
+            <div class="container flex justify-between p-0 m-0 max-w-none lg:flex-col">
+
+                <div class="banner__left-side flex justify-between flex-col lg:w-full">
+
+                    <figure>
+                        <img src="img/header_upper_figure.svg" alt="Pic">
+                    </figure>
+
+                    <div class="banner__left-main-content container px-20 mx-auto flex flex-col align-center lg:items-center sm:px-2 sm:text-center">
+
+                    <div>
+                        <p class="banner__subtitle sub-case inline sm:text-xs">
+                        Find your dream place
+                        </p>
+                    </div>
+
+                    <div class="mt-6 max-w-[516px]">
+                        <h1 class="text-6xl inline ">Find house for your family in minutes</h1>
+                    </div>
+
+                    <div class="mt-5 text-[#65665C] text-[20px] max-w-[503px]">
+                        <p>Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum curabitur eget aliquam elit in mauris purus.</p>
+                    </div>
+
+                    <div>
+
+                        <form class="nosubmit inline flex gap-4 mt-5 sm:flex-col">
+                            <input class="nosubmit" type="search" placeholder="Search...">
+                            <input class="btn" type="submit" name="find" value="Find Property">
+                        </form>
+                    </div>
+
+
+                    </div>
+
+                    <figure class="flex justify-end">
+                        <img src="img/header_lower_figure.svg" alt="Pic">
+                    </figure>
+
+                </div>
+
+                <div class="banner__right lg:w-full">
+                    <img class="w-full h-full" src="img/header_picture_right.png" alt="Pic">
+                </div>
+
+            </div>
+
+        </section>
+    </main>
 
 </body>
 </html>
