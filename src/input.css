@@ -207,3 +207,12 @@ input.nosubmit {
 
      */
 }
+
+
+.magazines__item-step {
+    transition: box-shadow 2s ease-out 0.9s;
+}
+.magazines__item-step:hover {
+    transition: .5s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
