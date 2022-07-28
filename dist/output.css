@@ -593,6 +593,11 @@ video {
   margin-right: auto;
 }
 
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .mt-2\.5{
   margin-top: 0.625rem;
 }
@@ -629,6 +634,10 @@ video {
   margin-top: 8rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
@@ -637,12 +646,12 @@ video {
   margin-top: 1rem;
 }
 
-.mt-16{
-  margin-top: 4rem;
-}
-
 .mt-7{
   margin-top: 1.75rem;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
 }
 
 .block{
@@ -721,6 +730,10 @@ video {
   max-width: 245px;
 }
 
+.max-w-\[643px\]{
+  max-width: 643px;
+}
+
 .border-collapse{
   border-collapse: collapse;
 }
@@ -729,8 +742,16 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .items-center{
   align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
 }
 
 .justify-end{
@@ -777,12 +798,17 @@ video {
   gap: 1.25rem;
 }
 
-.gap-20{
-  gap: 5rem;
+.gap-6{
+  gap: 1.5rem;
 }
 
 .rounded-2xl{
   border-radius: 1rem;
+}
+
+.rounded-b-lg{
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .border{
@@ -806,6 +832,11 @@ video {
 .bg-\[\#F5F5F2\]{
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 242 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ffffff\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-0{
@@ -897,11 +928,6 @@ video {
 .text-\[\#65665C\]{
   --tw-text-opacity: 1;
   color: rgb(101 102 92 / var(--tw-text-opacity));
-}
-
-.text-\[\#50d71e\]{
-  --tw-text-opacity: 1;
-  color: rgb(80 215 30 / var(--tw-text-opacity));
 }
 
 * {
@@ -1145,23 +1171,31 @@ input.nosubmit {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 1535px){
-  .\32xl\:gap-6{
-    gap: 1.5rem;
-  }
-
-  .\32xl\:gap-8{
-    gap: 2rem;
-  }
-
-  .\32xl\:gap-20{
-    gap: 5rem;
-  }
+.favorite__card {
+  transition: box-shadow 1s ease-out 0.9s;
 }
 
-@media (max-width: 1279px){
-  .xl\:gap-6{
-    gap: 1.5rem;
+.favorite__card:hover {
+  transition: .5s;
+  box-shadow: 5px 7px 14px 1px rgba(0,0,0,0.6);
+}
+
+.favorite__agent,
+.favorite__explore {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.favorite__agent:hover,
+.favorite__explore:hover {
+  background-color: white;
+  border: 1px solid transparent;
+  color: #333333;
+}
+
+@media (max-width: 1535px){
+  .\32xl\:gap-20{
+    gap: 5rem;
   }
 }
 
@@ -1197,11 +1231,6 @@ input.nosubmit {
 
   .lg\:text-center{
     text-align: center;
-  }
-
-  .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:text-3xl{
