@@ -253,3 +253,12 @@ input.nosubmit {
     color: #CF6F49;
     transition: .5s;
 }
+.priority__start {
+    color: white;
+    background-color: #CF6F49;
+    border: 1px solid #CF6F49;
+}
+.priority {
+
+    background: linear-gradient(to bottom, #F5F5F2 50%,  #ffffff 50%);
+}
