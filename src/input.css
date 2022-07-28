@@ -259,6 +259,27 @@ input.nosubmit {
     border: 1px solid #CF6F49;
 }
 .priority {
-
     background: linear-gradient(to bottom, #F5F5F2 50%,  #ffffff 50%);
+}
+.posts__subtitle {
+    background-color: #FAE8E1;
+}
+.posts__card-link-read > a:hover {
+    color: #CF6F49;
+    transition: .5s;
+}
+.posts__card-item {
+    transition: box-shadow 0.5s ease-out 0.7s;
+}
+.posts__card-item:hover {
+    transition: .5s;
+    box-shadow: 5px 7px 14px 1px rgba(0,0,0,0.6);
+}
+.posts__link-all {
+    transition: box-shadow 0.5s ease-out 0.7s;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.6);
+}
+.posts__link-all:hover {
+    transition: .5s;
+    box-shadow: 5px 7px 14px 1px rgba(0,0,0,0.6);
 }
