@@ -10,9 +10,9 @@
 @font-face {
     font-family: 'Roboto';
     src: local('Roboto Bold'), local('Roboto-Bold'),
-    url('src/fonts/Roboto-Bold.woff2') format('woff2'),
-    url('src/fonts/Roboto-Bold.woff') format('woff'),
-    url('src/fonts/Roboto-Bold.ttf') format('truetype');
+    url('fonts/Roboto-Bold.woff2') format('woff2'),
+    url('fonts/Roboto-Bold.woff') format('woff'),
+    url('fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -21,9 +21,9 @@
 @font-face {
     font-family: 'Roboto';
     src: local('Roboto'), local('Roboto-Regular'),
-    url('src/fonts/Roboto-Regular.woff2') format('woff2'),
-    url('src/fonts/Roboto-Regular.woff') format('woff'),
-    url('src/fonts/Roboto-Regular.ttf') format('truetype');
+    url('fonts/Roboto-Regular.woff2') format('woff2'),
+    url('fonts/Roboto-Regular.woff') format('woff'),
+    url('fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -199,7 +199,7 @@ input.nosubmit {
     width: 100%;
     max-width: 310px;
     padding: 9px 4px 9px 40px;
-    background: transparent url("src/img/header_icon_search.svg") no-repeat 16px center;
+    background: transparent url("img/header_icon_search.svg") no-repeat 16px center;
 }
 input.subscribe {
     border: 1px solid #E7E8E3;
